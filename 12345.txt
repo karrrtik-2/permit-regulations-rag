@@ -1,0 +1,64 @@
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\n\"status\": \"Approved\"\r\n                    }\r\n                ]\r\n            },\r\n            {\r\n                \"id\": 892,\r\n                \"order_id\": 22,\r\n                \"product_name\": \"Oregon\",\r\n                \"quantity\": 1,\r\n                \"price\": \"25.00\",\r\n                \"start_date\": \"2023-11-17\",\r\n                \"use_tolls\": 1,\r\n                \"created_at\": \"2023-11-18T01:47:26.000000Z\",\r\n                \"updated_at\": \"2024-02-09T10:14:19.000000Z\",\n\n{\r\n    \"order\": {\r\n        \"id\": 22,\r\n        \"token\": \"93728473\",\r\n        \"user_id\": 32,\r\n        \"carrier_id\": 26,\r\n        \"client_id\": 96,\r\n        \"driver_id\": 95,\r\n        \"subtotal\": 0,\r\n        \"tax\": 0,\r\n        \"total\": 0,\r\n        \"created_at\": \"2023-11-18T01:46:03.000000Z\",\r\n        \"updated_at\": \"2024-08-21T11:14:29.000000Z\",\r\n        \"status\": \"Completed\",\r\n        \"truck_detail\": {\r\n            \"id\": 140,\r\n            \"token\": \"vMy9cRtoIO5q0776\",\r\n            \"unit_id\": \"2214\",\n\n\"status\": \"Approved\"\r\n                    }\r\n                ]\r\n            },\r\n            {\r\n                \"id\": 891,\r\n                \"order_id\": 22,\r\n                \"product_name\": \"Idaho\",\r\n                \"quantity\": 1,\r\n                \"price\": \"44.98\",\r\n                \"start_date\": \"2023-11-17\",\r\n                \"use_tolls\": 1,\r\n                \"created_at\": \"2023-11-18T01:47:26.000000Z\",\r\n                \"updated_at\": \"2024-02-09T10:14:19.000000Z\",\n\n\"state_id\": 31,\r\n                \"metas\": [],\r\n                \"routeitem\": []\r\n            },\r\n            {\r\n                \"id\": 14306,\r\n                \"order_id\": 2904,\r\n                \"product_name\": \"Texas\",\r\n                \"quantity\": 1,\r\n                \"price\": \"86.66\",\r\n                \"start_date\": \"2025-01-04\",\r\n                \"use_tolls\": 1,\r\n                \"created_at\": \"2025-01-04T12:21:01.000000Z\",\n\nQuestion: how many orders are there\nHelpful Answer:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.\n\nChat History:\n\nHuman: how many orders are there\nAssistant: There are at least 2 orders: order 22 and order 2904.\nFollow Up Input: are there any common states in these orders\nStandalone question:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\n{\"states\": {\"Oregon\": 1, \"California\": 1, \"Idaho\": 1, \"Nevada\": 1}, \"common_states\": [\"Oregon\", \"California\", \"Idaho\", \"Nevada\"], \"routes\": {}, \"drivers\": [\"Vitalie Chiorescu\"], \"clients\": [\"Ryan V\"], \"total_weights\": {\"22\": 92000}, \"equipment\": {\"trucks\": [\"2023 KENWORTH t680\"], \"trailers\": [\"2013 TRAIL KING INDUSTRIES\"]}}\n\n\"status\": \"Approved\"\r\n                    },\r\n                    {\r\n                        \"id\": 316,\r\n                        \"item_id\": 892,\n\n\"state_id\": 31,\r\n                \"metas\": [],\r\n                \"routeitem\": []\r\n            },\r\n            {\r\n                \"id\": 14306,\r\n                \"order_id\": 2904,\r\n                \"product_name\": \"Texas\",\r\n                \"quantity\": 1,\r\n                \"price\": \"86.66\",\r\n                \"start_date\": \"2025-01-04\",\r\n                \"use_tolls\": 1,\r\n                \"created_at\": \"2025-01-04T12:21:01.000000Z\",\n\n},\r\n            {\r\n                \"name\": \"youcef\",\r\n                \"last_name\": \"ab\",\r\n                \"id\": 52160,\r\n                \"order_id\": 2904,\r\n                \"user_id\": 32,\r\n                \"item_id\": 14306,\r\n                \"activity\": \"Delete State Texas\",\r\n                \"description\": \"Load Cancelled.\",\r\n                \"created_at\": \"2025-01-07T15:36:33.000000Z\",\r\n                \"updated_at\": \"2025-01-07T15:36:33.000000Z\",\n\nQuestion: Are there any common states in orders 22 and 2904?\nHelpful Answer:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\n\"orderId\": \"22\",\n\n\"order_id\": 22,\n\n\"order_id\": 22,\n\n\"order_id\": 22,\n\nQuestion: how many orders are there\nHelpful Answer:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.\n\nChat History:\n\nHuman: how many orders are there\nAssistant: There is 1 order, with ID 22.\nFollow Up Input: what is the estimated cost\nStandalone question:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\n\"orderId\": \"22\",\n\n\"order_id\": 22,\n\n\"order_id\": 22,\n\n\"order_id\": 22,\n\nQuestion: What is the estimated cost of order 22?\nHelpful Answer:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.\n\nChat History:\n\nHuman: how many orders are there\nAssistant: There is 1 order, with ID 22.\nHuman: what is the estimated cost\nAssistant: I don't know.\nFollow Up Input: what can you see\nStandalone question:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+
+Data fed to LLM:
+[
+  {
+    "role": "user",
+    "content": "\n        You are analyzing transportation orders data. Use the following structured information \n        along with the original text to answer questions accurately:\n        \n        Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\n\"orderId\": \"22\",\n\n\"order_id\": 22,\n\n\"order_id\": 22,\n\n\"order_id\": 22,\n\nQuestion: What information is available about order 22?\nHelpful Answer:\n        \n        Please provide specific, to the point and very short answers based on both the structured analysis \n        and the original text content. If you're comparing multiple orders, mention specific \n        order IDs and relevant details.\n        "
+  }
+]
+

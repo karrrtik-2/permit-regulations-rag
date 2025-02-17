@@ -1,0 +1,1796 @@
+{
+    "order": {
+        "id": 22,
+        "token": "93728473",
+        "user_id": 32,
+        "carrier_id": 26,
+        "client_id": 96,
+        "driver_id": 95,
+        "subtotal": 0,
+        "tax": 0,
+        "total": 0,
+        "created_at": "2023-11-18T01:46:03.000000Z",
+        "updated_at": "2024-08-21T11:14:29.000000Z",
+        "status": "Completed",
+        "truck_detail": {
+            "id": 140,
+            "token": "vMy9cRtoIO5q0776",
+            "unit_id": "2214",
+            "carrier": 26,
+            "year": "2023",
+            "make": "KENWORTH",
+            "model": "t680",
+            "vin": "1XKYDP9X6PJ218226",
+            "ifta_sticker": null,
+            "license_plate": "RP03684",
+            "license_state": "WA",
+            "axees": null,
+            "color": "red",
+            "axle": 3,
+            "owner_id": 95,
+            "owner_pay": null,
+            "carrier_name": "2969030",
+            "carrier_dot": "STRATAN INC",
+            "carrier_address": null,
+            "carrier_phone": null,
+            "registration": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/trucks/1733176143_43.pdf",
+            "lease_agreement": null,
+            "insurance": null,
+            "annual_inspection": null,
+            "registration_exp": "2025-11-30",
+            "insurance_exp": null,
+            "annual_inspection_exp": null,
+            "status": 1,
+            "is_brk_updates_enabled": 1,
+            "odameter": null,
+            "ny_permit": null,
+            "ny_permit_exp": null,
+            "nm_permit": "",
+            "nm_permit_exp": null,
+            "carb_certificate": null,
+            "oregon_permit": null,
+            "eld_device": null,
+            "tst_sn": null,
+            "owner_name": null,
+            "loss_payee_name": null,
+            "loss_payee_address": null,
+            "unit_value": null,
+            "created_at": "2023-11-18T01:44:51.000000Z",
+            "updated_at": "2024-12-02T21:49:04.000000Z"
+        },
+        "Trailer_Info": {
+            "id": 76,
+            "token": "mOPOWhcwsR6Eq4cQ",
+            "trailer_id": "232",
+            "carrier": 26,
+            "model": "NA",
+            "year": "2013",
+            "vin": "1TKJ04825DW119479",
+            "license_plate": "5285057",
+            "state": "ME",
+            "lenght": "48",
+            "trailer_type": "65",
+            "make": "TRAIL KING INDUSTRIES",
+            "axees": null,
+            "axle": 2,
+            "king_pin": "43",
+            "kin_pin_in": 0,
+            "standard_Ft": "1",
+            "Inch": "8",
+            "owner_id": null,
+            "registration": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/trailers/1717793591_67.pdf",
+            "lease_agreement": null,
+            "insurance": null,
+            "annual_inspection": null,
+            "name_on_registration": null,
+            "owner_name": null,
+            "unit_value": "0",
+            "status": 1,
+            "loss_payee_name": null,
+            "loss_payee_address": null,
+            "registration_exp": "2030-02-12",
+            "insurance_exp": null,
+            "annual_inspection_exp": null,
+            "axle_type": "Fixed",
+            "drop_axle": 0,
+            "empty_weight": 19000,
+            "created_at": "2023-11-18T01:45:37.000000Z",
+            "updated_at": "2024-08-14T15:53:44.000000Z"
+        },
+        "Trailer_Type": "Removable Gooseneck",
+        "Company_Info": {
+            "id": 26,
+            "token": "RL0KtJR8mNXR3YrK",
+            "mc": "9032",
+            "dot": "2969030",
+            "name": "STRATAN INC",
+            "tax_id": "46-5660187",
+            "ifta_number": "NV46566018701",
+            "billing_company_name": "STRATAN INC",
+            "billing_email": "accounting@strataninc.com",
+            "billing_address": "2695 Kee-Moore Drive",
+            "billing_city": "Chester",
+            "billing_state": "South Carolina",
+            "billing_zip_code": "29706",
+            "created_at": "2023-11-17T23:13:27.000000Z",
+            "updated_at": "2024-09-19T19:46:04.000000Z",
+            "carrier_credits": null
+        },
+        "Company_attribute_Info": [
+            {
+                "id": 172,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "summary",
+                "value": "{\"carrier_id\":\"26\",\"email\":\"strataninc@gmail.com\",\"phone_number\":\"(757) 503-9894\",\"physical_address\":\"2695 KEE MOORE DR\",\"city\":\"CHESTER\",\"state\":\"SC\",\"zip_code\":\"29706\",\"expire_date\":\"02-01-2025\",\"iftacert\":{},\"steponefile\":{}}",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 173,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "ifa_license_number",
+                "value": "NV46566018701",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 174,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "email",
+                "value": "strataninc@gmail.com",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 175,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "phone_number",
+                "value": "(757) 503-9894",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 176,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "physical_address",
+                "value": "2695 KEE MOORE DR",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 177,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "state",
+                "value": "SC",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 178,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "city",
+                "value": "CHESTER",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 179,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "zip_code",
+                "value": "29706",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 196,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "ifta_number",
+                "value": "NV46566018701",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 197,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "dba_name",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 198,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "scac_number",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 199,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "fein_number",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 200,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "office_phone",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 201,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "office_fax",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 202,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "main_email",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 203,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "accounting_email",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 204,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "accounting_phone",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 205,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "logo",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 206,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_address1",
+                "value": "2695 KEE MOORE DR",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 207,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_address2",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 208,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_city",
+                "value": "CHESTER",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 209,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_state",
+                "value": "SC",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 210,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_zip",
+                "value": "29706",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 211,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "physical_address2",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 212,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "zip",
+                "value": "89139",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 260,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "expire_date",
+                "value": "02-01-2025",
+                "created_at": "2023-12-05 06:24:39",
+                "updated_at": "2023-12-05 06:24:39"
+            },
+            {
+                "id": 501,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "carrierImage",
+                "value": "[]",
+                "created_at": "2024-04-22 14:59:17",
+                "updated_at": "2024-04-22 14:59:17"
+            },
+            {
+                "id": 558,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "iftacert",
+                "value": "[]",
+                "created_at": "2024-05-30 13:42:13",
+                "updated_at": "2024-05-30 13:42:13"
+            }
+        ],
+        "Company_city": "CHESTER",
+        "Company_state": "SC",
+        "Company_zip_code": "29706",
+        "Company_physical_address": "2695 KEE MOORE DR",
+        "Company_phone_number": "(757) 503-9894",
+        "Company_email": "strataninc@gmail.com",
+        "Company_expire_date": "02-01-2025",
+        "Company_carrierImage": "[]",
+        "axle_weight": [
+            {
+                "name": "Axle 1:2 Tires",
+                "value": "12000"
+            },
+            {
+                "name": "Axle 2:4 Tires",
+                "value": "20000"
+            },
+            {
+                "name": "Axle 3:4 Tires",
+                "value": "20000"
+            },
+            {
+                "name": "Axle 4:4 Tires",
+                "value": "20000"
+            },
+            {
+                "name": "Axle 5:4 Tires",
+                "value": "20000"
+            }
+        ],
+        "state_webstie_detail": [
+            {
+                "id": 5,
+                "state_website": "https://calroute.dot.ca.gov/index.php/auth/login",
+                "username": "nashcal",
+                "password": "Shallowwater123@"
+            },
+            {
+                "id": 28,
+                "state_website": "https://odvp.dot.nv.gov/",
+                "username": "synchronpermits",
+                "password": "Password123."
+            },
+            {
+                "id": 12,
+                "state_website": "https://permits4idaho.com/",
+                "username": "synchronpermits@gmail.com",
+                "password": "15Shallow#"
+            },
+            {
+                "id": 37,
+                "state_website": "https://www.oregontruckingonline.com/cf/MCAD/metaEntry/",
+                "username": "266335",
+                "password": "Pan20$"
+            }
+        ],
+        "axle_spacing": [
+            {
+                "name": "A1- A2",
+                "value": "17ft8in"
+            },
+            {
+                "name": "A2- A3",
+                "value": "4ft5in"
+            },
+            {
+                "name": "A3- A4",
+                "value": "38ft7in"
+            },
+            {
+                "name": "A4- A5",
+                "value": "4ft3in"
+            }
+        ],
+        "OverallOrderData": {
+            "orderId": "22",
+            "truckID": "140",
+            "trailerId": "76",
+            "overalllength": {
+                "feet": "70",
+                "inch": "0"
+            },
+            "overallwidth": {
+                "feet": "11",
+                "inch": "11"
+            },
+            "overallheight": {
+                "feet": "13",
+                "inch": "6"
+            },
+            "overallweight": "80000",
+            "front_overhang": {
+                "feet": "0",
+                "inch": "0"
+            },
+            "rear_overhang": {
+                "feet": "0",
+                "inch": "0"
+            }
+        },
+        "totalWeight": 92000,
+        "pickupFormattedAddress": " 8642 Avenida Costa Norte, San Diego, CA 92154",
+        "deliveryFormatedAddress": "77860 Bombing Range Rd, Boardman, OR 97818",
+        "routeData": [
+            {
+                "id": 889,
+                "order_id": 22,
+                "product_name": "California",
+                "quantity": 1,
+                "price": "23.00",
+                "start_date": "2023-11-17",
+                "use_tolls": 1,
+                "created_at": "2023-11-18T01:47:26.000000Z",
+                "updated_at": "2024-02-09T10:14:19.000000Z",
+                "status": "Permit Attached",
+                "token": "FVbjq9zVPG4JPM",
+                "state_fee": 43,
+                "other_fee": null,
+                "service_fee": "25.05",
+                "attached_at": "2023-11-17 19:47:26",
+                "state_id": 5,
+                "metas": [
+                    {
+                        "key": "step2Image1",
+                        "value": [
+                            "storage/map_screenshot/step_1704473730.4317.2214 CA (1).pdf"
+                        ],
+                        "item_id": 889
+                    }
+                ],
+                "routeitem": [
+                    {
+                        "id": 318,
+                        "item_id": 889,
+                        "route_url": "https://www.google.com/maps/dir/8642+Avenida+Costa+Norte,+San+Diego,+CA,+USA/32.5753125,-117.0387625/32.7432907,-117.1107881/34.1625682,-117.4640415/34.7615922,-117.1559902/34.8563486,-114.9039472/35.1758753,-114.8493348/@33.3650572,-117.0745227,8z/data=!4m14!4m13!1m5!1m1!1s0x80d94649120bfa03:0x8ed0627ebac7b08d!2m2!1d-116.9580169!2d32.5594028!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu",
+                        "status": "Approved"
+                    }
+                ]
+            },
+            {
+                "id": 890,
+                "order_id": 22,
+                "product_name": "Nevada",
+                "quantity": 1,
+                "price": "25.00",
+                "start_date": "2023-11-17",
+                "use_tolls": 1,
+                "created_at": "2023-11-18T01:47:26.000000Z",
+                "updated_at": "2024-02-09T10:14:19.000000Z",
+                "status": "Permit Attached",
+                "token": "0lYv7N8SJNOFKK",
+                "state_fee": 25,
+                "other_fee": null,
+                "service_fee": "25.05",
+                "attached_at": "2023-11-17 19:47:26",
+                "state_id": 28,
+                "metas": [
+                    {
+                        "key": "StepOneImage",
+                        "value": [
+                            "storage/map_screenshot/step_1704473562.1681.image.png"
+                        ],
+                        "item_id": 890
+                    },
+                    {
+                        "key": "step2Image1",
+                        "value": [
+                            "storage/map_screenshot/step_1704473657.4941.2214 NV (1).pdf"
+                        ],
+                        "item_id": 890
+                    }
+                ],
+                "routeitem": [
+                    {
+                        "id": 317,
+                        "item_id": 890,
+                        "route_url": "https://www.google.com/maps/dir/35.175857,-114.8493129/35.9754706,-114.9147194/36.285221,-115.0187224/36.3860249,-114.8984831/37.5438887,-115.2340997/39.000929,-115.1222631/39.2766055,-114.8486538/41.9968578,-114.6693535/@38.5149459,-119.0923806,7z/data=!4m15!4m14!1m5!3m4!1m2!1d-114.9084152!2d35.9390321!3s0x80cf2aa7397ea059:0xcc073d7fe3dd2e1!1m0!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu",
+                        "status": "Approved"
+                    }
+                ]
+            },
+            {
+                "id": 891,
+                "order_id": 22,
+                "product_name": "Idaho",
+                "quantity": 1,
+                "price": "44.98",
+                "start_date": "2023-11-17",
+                "use_tolls": 1,
+                "created_at": "2023-11-18T01:47:26.000000Z",
+                "updated_at": "2024-02-09T10:14:19.000000Z",
+                "status": "Permit Attached",
+                "token": "P8cj2UaC2dPsoP",
+                "state_fee": 30,
+                "other_fee": 2,
+                "service_fee": "25.05",
+                "attached_at": "2023-11-17 19:47:26",
+                "state_id": 12,
+                "metas": [
+                    {
+                        "key": "StepOneImage",
+                        "value": [
+                            "storage/map_screenshot/step_1704473223.2154.image.png"
+                        ],
+                        "item_id": 891
+                    },
+                    {
+                        "key": "step2Image1",
+                        "value": [
+                            "storage/map_screenshot/step_1704473259.2023.2214 ID (1).pdf"
+                        ],
+                        "item_id": 891
+                    }
+                ],
+                "routeitem": [
+                    {
+                        "id": 313,
+                        "item_id": 891,
+                        "route_url": "http://www.google.com/maps/dir/41.9968524,-114.6693253/42.5918391,-114.4671608/42.6540553,-114.4763417/43.2306945,-115.830427/44.0069201,-116.9410458/@42.6213011,-114.6455167,11.25z/data=!4m2!4m1!3e0?entry=ttu",
+                        "status": "Approved"
+                    }
+                ]
+            },
+            {
+                "id": 892,
+                "order_id": 22,
+                "product_name": "Oregon",
+                "quantity": 1,
+                "price": "25.00",
+                "start_date": "2023-11-17",
+                "use_tolls": 1,
+                "created_at": "2023-11-18T01:47:26.000000Z",
+                "updated_at": "2024-02-09T10:14:19.000000Z",
+                "status": "Permit Attached",
+                "token": "GFu04uRWqRfUog",
+                "state_fee": 41,
+                "other_fee": null,
+                "service_fee": "25.05",
+                "attached_at": "2023-11-17 19:47:26",
+                "state_id": 37,
+                "metas": [],
+                "routeitem": [
+                    {
+                        "id": 315,
+                        "item_id": 892,
+                        "route_url": "https://www.google.com/maps/dir/44.0069021,-116.9410458/44.7720302,-117.8093646/45.3464093,-118.1500188/45.8026522,-119.4355035/77860+Bombing+Range+Rd,+Lexington,+OR+97839,+USA/@45.4468846,-119.4173922,8.21z/data=!4m12!4m11!1m0!1m0!1m0!1m0!1m5!1m1!1s0x54bd4ba7febd6835:0x267dc5eba80af6f6!2m2!1d-119.6230108!2d45.748684!3e0?entry=ttu",
+                        "status": "Approved"
+                    },
+                    {
+                        "id": 316,
+                        "item_id": 892,
+                        "route_url": "https://www.google.com/maps/dir/44.0069021,-116.9410458/44.7720302,-117.8093646/45.3464093,-118.1500188/45.8026522,-119.4355035/77860+Bombing+Range+Rd,+Lexington,+OR+97839,+USA/@45.4468846,-119.4173922,8.21z/data=!4m12!4m11!1m0!1m0!1m0!1m0!1m5!1m1!1s0x54bd4ba7febd6835:0x267dc5eba80af6f6!2m2!1d-119.6230108!2d45.748684!3e0?entry=ttu",
+                        "status": "Approved"
+                    }
+                ]
+            }
+        ],
+        "clientData": {
+            "id": 96,
+            "token": "38617257",
+            "name": "Ryan",
+            "last_name": "V",
+            "phone": "+1 725-219-0295",
+            "otp": null,
+            "email": "ryan@strataninc.com",
+            "photo": null,
+            "birthday": null,
+            "cdl": null,
+            "email_verified_at": null,
+            "is_assistant": 0,
+            "status": 1,
+            "hire_date": null,
+            "pay_rate": null,
+            "created_at": "2023-11-17T23:17:35.000000Z",
+            "updated_at": "2024-09-16T08:20:23.000000Z",
+            "tier": "Regular",
+            "billing_email": "Accounting@strataninc.com",
+            "billing_company_name": "STRATAN INC",
+            "billing_tax_id": null,
+            "billing_address": "2695 Kee-Moore Drive, Chester, SC, USA",
+            "billing_city": "Chester",
+            "billing_state": "South Carolina",
+            "billing_zip": "29706",
+            "default_carrier_id": null,
+            "credits": null
+        },
+        "driverData": {
+            "id": 95,
+            "token": "48067405",
+            "name": "Vitalie",
+            "last_name": "Chiorescu",
+            "phone": "+1 702-666-1566",
+            "otp": null,
+            "email": "Cvtservicesllc@gmail.com",
+            "photo": null,
+            "birthday": null,
+            "cdl": null,
+            "email_verified_at": null,
+            "is_assistant": 0,
+            "status": 1,
+            "hire_date": null,
+            "pay_rate": null,
+            "created_at": "2023-11-17T23:16:27.000000Z",
+            "updated_at": "2024-08-15T22:38:01.000000Z",
+            "tier": "Regular",
+            "billing_email": "Cvtservicesllc@gmail.com",
+            "billing_company_name": "CVT SERVICES LLC",
+            "billing_tax_id": null,
+            "billing_address": "365 Cliff Run Lane, Las Vegas, NV, USA",
+            "billing_city": "Las Vegas",
+            "billing_state": "Nevada",
+            "billing_zip": "89138",
+            "default_carrier_id": null,
+            "credits": "42.00"
+        },
+        "commodityDataValue": {
+            "order_id": "22",
+            "pickup_date": "2023-11-17",
+            "length": {
+                "feet": "29",
+                "inch": "0"
+            },
+            "width": {
+                "feet": "11",
+                "inch": "11"
+            },
+            "height": {
+                "feet": "10",
+                "inch": "0"
+            },
+            "weight": "18000",
+            "piece_count": "1",
+            "description": "Wooden crate"
+        },
+        "trailer": 76,
+        "tollPassDeviceAttributes": "B6010010829",
+        "EmptyWeightAttributes": "19000",
+        "order_created_date": "2023-11-23 06:12:47",
+        "state_data": "2214 CA-OR",
+        "percentage": 100,
+        "permitcount": 4,
+        "statuscount": 4,
+        "$totalPaidAmount": 141,
+        "total_due": "0.00",
+        "directpay_due": "0.00",
+        "getRoutesData": [],
+        "transactions": {
+            "0": {
+                "transaction_id": "N/A",
+                "payment_method": {
+                    "name": "Zelle",
+                    "card_image": "",
+                    "masked_card_number": "N/A"
+                },
+                "amount": "141.00",
+                "status": "succeeded",
+                "description": "Payment done through direct pay",
+                "created_at": "2023-11-24 20:25:00"
+            },
+            "1": {
+                "transaction_id": "N/A",
+                "payment_method": {
+                    "name": "Discount",
+                    "card_image": "",
+                    "masked_card_number": "N/A"
+                },
+                "amount": "100.20",
+                "status": "succeeded",
+                "description": "Payment done through discount",
+                "created_at": "2024-03-07 23:04:27"
+            }
+        },
+        "odOrderLogData": [
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1234,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 889,
+                "activity": "California",
+                "description": "Route approved by",
+                "created_at": "2024-01-05T16:55:48.000000Z",
+                "updated_at": "2024-01-05T16:55:48.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1233,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 889,
+                "activity": "California",
+                "description": "Route added by",
+                "created_at": "2024-01-05T16:55:44.000000Z",
+                "updated_at": "2024-01-05T16:55:44.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1232,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 889,
+                "activity": "California",
+                "description": "Permit 376268 attached by",
+                "created_at": "2024-01-05T16:55:30.000000Z",
+                "updated_at": "2024-01-05T16:55:30.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1230,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 890,
+                "activity": "Nevada",
+                "description": "Route approved by",
+                "created_at": "2024-01-05T16:54:40.000000Z",
+                "updated_at": "2024-01-05T16:54:40.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1229,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 890,
+                "activity": "Nevada",
+                "description": "Route added by",
+                "created_at": "2024-01-05T16:54:34.000000Z",
+                "updated_at": "2024-01-05T16:54:34.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1228,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 890,
+                "activity": "Nevada",
+                "description": "Permit 402694 attached by",
+                "created_at": "2024-01-05T16:54:17.000000Z",
+                "updated_at": "2024-01-05T16:54:17.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1227,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 892,
+                "activity": "Oregon",
+                "description": "Route approved by",
+                "created_at": "2024-01-05T16:52:15.000000Z",
+                "updated_at": "2024-01-05T16:52:15.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1226,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 892,
+                "activity": "Oregon",
+                "description": "Route approved by",
+                "created_at": "2024-01-05T16:52:09.000000Z",
+                "updated_at": "2024-01-05T16:52:09.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1225,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 892,
+                "activity": "Oregon",
+                "description": "Route added by",
+                "created_at": "2024-01-05T16:52:03.000000Z",
+                "updated_at": "2024-01-05T16:52:03.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1224,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 892,
+                "activity": "Oregon",
+                "description": "Route added by",
+                "created_at": "2024-01-05T16:52:02.000000Z",
+                "updated_at": "2024-01-05T16:52:02.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1223,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 892,
+                "activity": "Oregon",
+                "description": "Permit 23111521692 attached by",
+                "created_at": "2024-01-05T16:51:44.000000Z",
+                "updated_at": "2024-01-05T16:51:44.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1219,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 891,
+                "activity": "Idaho",
+                "description": "Route approved by",
+                "created_at": "2024-01-05T16:48:14.000000Z",
+                "updated_at": "2024-01-05T16:48:14.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1218,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 891,
+                "activity": "Idaho",
+                "description": "Route added by",
+                "created_at": "2024-01-05T16:47:54.000000Z",
+                "updated_at": "2024-01-05T16:47:54.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 1217,
+                "order_id": 22,
+                "user_id": 32,
+                "item_id": 891,
+                "activity": "Idaho",
+                "description": "Permit 23279336 attached by",
+                "created_at": "2024-01-05T16:47:39.000000Z",
+                "updated_at": "2024-01-05T16:47:39.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            }
+        ],
+        "estimatorTotalPriceValue": 189.2
+    },
+        "id": 2904,
+        "token": "95122056",
+        "user_id": 32,
+        "carrier_id": 26,
+        "client_id": 95,
+        "driver_id": 325,
+        "subtotal": 0,
+        "tax": 0,
+        "total": 0,
+        "created_at": "2025-01-04T12:17:50.000000Z",
+        "updated_at": "2025-01-08T21:35:54.000000Z",
+        "status": "Completed",
+        "truck_detail": {
+            "id": 141,
+            "token": "2vF1ixZMqqOCDmON",
+            "unit_id": "2215",
+            "carrier": 26,
+            "year": "2023",
+            "make": "KENWORTH",
+            "model": "t680",
+            "vin": "1XKYDP9X8PJ218227",
+            "ifta_sticker": null,
+            "license_plate": "RP03685",
+            "license_state": "WA",
+            "axees": null,
+            "color": "red",
+            "axle": 3,
+            "owner_id": 95,
+            "owner_pay": null,
+            "carrier_name": "2969030",
+            "carrier_dot": "STRATAN INC",
+            "carrier_address": null,
+            "carrier_phone": null,
+            "registration": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/trucks/1732722370_45.pdf",
+            "lease_agreement": null,
+            "insurance": null,
+            "annual_inspection": null,
+            "registration_exp": "2025-11-30",
+            "insurance_exp": null,
+            "annual_inspection_exp": null,
+            "status": 1,
+            "is_brk_updates_enabled": 1,
+            "odameter": null,
+            "ny_permit": null,
+            "ny_permit_exp": null,
+            "nm_permit": "",
+            "nm_permit_exp": null,
+            "carb_certificate": null,
+            "oregon_permit": null,
+            "eld_device": null,
+            "tst_sn": null,
+            "owner_name": null,
+            "loss_payee_name": null,
+            "loss_payee_address": null,
+            "unit_value": null,
+            "created_at": "2023-11-18T01:48:34.000000Z",
+            "updated_at": "2024-11-27T15:46:10.000000Z"
+        },
+        "Trailer_Info": {
+            "id": 326,
+            "token": "XFMHIXPqkSBHwCA6",
+            "trailer_id": "8410",
+            "carrier": 26,
+            "model": "NA",
+            "year": "2015",
+            "vin": "1TKJ04820FM075308",
+            "license_plate": "5464876",
+            "state": "ME",
+            "lenght": "48",
+            "trailer_type": "65",
+            "make": "Trailer King",
+            "axees": null,
+            "axle": 2,
+            "king_pin": "43",
+            "kin_pin_in": 0,
+            "standard_Ft": "1",
+            "Inch": "6",
+            "owner_id": null,
+            "registration": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/trailers/1732718703_33.pdf",
+            "lease_agreement": null,
+            "insurance": null,
+            "annual_inspection": null,
+            "name_on_registration": null,
+            "owner_name": null,
+            "unit_value": null,
+            "status": 1,
+            "loss_payee_name": null,
+            "loss_payee_address": null,
+            "registration_exp": "2030-02-28",
+            "insurance_exp": null,
+            "annual_inspection_exp": null,
+            "axle_type": "Fixed",
+            "drop_axle": 0,
+            "empty_weight": 21500,
+            "created_at": "2024-11-27T14:45:03.000000Z",
+            "updated_at": "2024-12-13T19:16:01.000000Z"
+        },
+        "Trailer_Type": "Removable Gooseneck",
+        "Company_Info": {
+            "id": 26,
+            "token": "RL0KtJR8mNXR3YrK",
+            "mc": "9032",
+            "dot": "2969030",
+            "name": "STRATAN INC",
+            "tax_id": "46-5660187",
+            "ifta_number": "NV46566018701",
+            "billing_company_name": "STRATAN INC",
+            "billing_email": "accounting@strataninc.com",
+            "billing_address": "2695 Kee-Moore Drive",
+            "billing_city": "Chester",
+            "billing_state": "South Carolina",
+            "billing_zip_code": "29706",
+            "created_at": "2023-11-17T23:13:27.000000Z",
+            "updated_at": "2024-09-19T19:46:04.000000Z",
+            "carrier_credits": null
+        },
+        "Company_attribute_Info": [
+            {
+                "id": 172,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "summary",
+                "value": "{\"carrier_id\":\"26\",\"email\":\"strataninc@gmail.com\",\"phone_number\":\"(757) 503-9894\",\"physical_address\":\"2695 KEE MOORE DR\",\"city\":\"CHESTER\",\"state\":\"SC\",\"zip_code\":\"29706\",\"expire_date\":\"02-01-2025\",\"iftacert\":{},\"steponefile\":{}}",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 173,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "ifa_license_number",
+                "value": "NV46566018701",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 174,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "email",
+                "value": "strataninc@gmail.com",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 175,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "phone_number",
+                "value": "(757) 503-9894",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 176,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "physical_address",
+                "value": "2695 KEE MOORE DR",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 177,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "state",
+                "value": "SC",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 178,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "city",
+                "value": "CHESTER",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 179,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "zip_code",
+                "value": "29706",
+                "created_at": "2023-11-17 17:13:27",
+                "updated_at": "2023-11-17 17:13:27"
+            },
+            {
+                "id": 196,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "ifta_number",
+                "value": "NV46566018701",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 197,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "dba_name",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 198,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "scac_number",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 199,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "fein_number",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 200,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "office_phone",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 201,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "office_fax",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 202,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "main_email",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 203,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "accounting_email",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 204,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "accounting_phone",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 205,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "logo",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 206,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_address1",
+                "value": "2695 KEE MOORE DR",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 207,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_address2",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 208,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_city",
+                "value": "CHESTER",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 209,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_state",
+                "value": "SC",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 210,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "mailling_zip",
+                "value": "29706",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:59:47"
+            },
+            {
+                "id": 211,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "physical_address2",
+                "value": null,
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 212,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "zip",
+                "value": "89139",
+                "created_at": "2023-11-17 07:53:51",
+                "updated_at": "2023-11-17 07:53:51"
+            },
+            {
+                "id": 260,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "expire_date",
+                "value": "02-01-2025",
+                "created_at": "2023-12-05 06:24:39",
+                "updated_at": "2023-12-05 06:24:39"
+            },
+            {
+                "id": 501,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "carrierImage",
+                "value": "[]",
+                "created_at": "2024-04-22 14:59:17",
+                "updated_at": "2024-04-22 14:59:17"
+            },
+            {
+                "id": 558,
+                "carrier_id": 26,
+                "category": "info",
+                "name": "iftacert",
+                "value": "[]",
+                "created_at": "2024-05-30 13:42:13",
+                "updated_at": "2024-05-30 13:42:13"
+            }
+        ],
+        "Company_city": "CHESTER",
+        "Company_state": "SC",
+        "Company_zip_code": "29706",
+        "Company_physical_address": "2695 KEE MOORE DR",
+        "Company_phone_number": "(757) 503-9894",
+        "Company_email": "strataninc@gmail.com",
+        "Company_expire_date": "02-01-2025",
+        "Company_carrierImage": "[]",
+        "axle_weight": [
+            {
+                "name": "Axle 1:2 Tires",
+                "value": "12000"
+            },
+            {
+                "name": "Axle 2:4 Tires",
+                "value": "17000"
+            },
+            {
+                "name": "Axle 3:4 Tires",
+                "value": "17000"
+            },
+            {
+                "name": "Axle 4:4 Tires",
+                "value": "17000"
+            },
+            {
+                "name": "Axle 5:4 Tires",
+                "value": "17000"
+            }
+        ],
+        "state_webstie_detail": [
+            {
+                "id": 5,
+                "state_website": "https://calroute.dot.ca.gov/index.php/auth/login",
+                "username": "nashcal",
+                "password": "Shallowwater123@"
+            },
+            {
+                "id": 3,
+                "state_website": "https://adotepro.azdot.gov/adot/login.asp",
+                "username": "synchronpermit12",
+                "password": "Friday730$"
+            },
+            {
+                "id": 31,
+                "state_website": "https://truckpermits.dot.nm.gov/Login.aspx",
+                "username": "trcpermit",
+                "password": "Password1"
+            },
+            {
+                "id": 43,
+                "state_website": "https://txpros.txdmv.gov/Login.aspx",
+                "username": "synchronpermit12",
+                "password": "Shallowwater17@"
+            }
+        ],
+        "axle_spacing": [
+            {
+                "name": "A1- A2",
+                "value": "17ft8in"
+            },
+            {
+                "name": "A2- A3",
+                "value": "4ft6in"
+            },
+            {
+                "name": "A3- A4",
+                "value": "38ft7in"
+            },
+            {
+                "name": "A4- A5",
+                "value": "4ft6in"
+            }
+        ],
+        "OverallOrderData": {
+            "order_id": "2904",
+            "overalltrucktrailer": {
+                "feet": "70",
+                "inch": "0"
+            },
+            "overalllength": {
+                "feet": "70",
+                "inch": "0"
+            },
+            "overallwidth": {
+                "feet": "10",
+                "inch": "0"
+            },
+            "overallheight": {
+                "feet": "14",
+                "inch": "3"
+            },
+            "overallweight": "80000",
+            "front_overhang": {
+                "feet": "0",
+                "inch": "0"
+            },
+            "rear_overhang": {
+                "feet": "0",
+                "inch": "0"
+            }
+        },
+        "totalWeight": 80000,
+        "pickupFormattedAddress": " 11600 Pike St, Santa Fe Springs, CA 90670",
+        "deliveryFormatedAddress": "1501 N Lively St, Freeport, TX 77541",
+        "routeData": [
+            {
+                "id": 14303,
+                "order_id": 2904,
+                "product_name": "California",
+                "quantity": 1,
+                "price": "41.05",
+                "start_date": "2025-01-04",
+                "use_tolls": 1,
+                "created_at": "2025-01-04T12:20:31.000000Z",
+                "updated_at": "2025-01-06T16:21:39.000000Z",
+                "status": "Permit Attached",
+                "token": "6qmPtMnh3S3r3U",
+                "state_fee": 16,
+                "other_fee": null,
+                "service_fee": "25.03",
+                "attached_at": "2025-01-06 10:21:38",
+                "state_id": 5,
+                "metas": [
+                    {
+                        "key": "step2Image1",
+                        "value": [
+                            "https://synchrontms.s3.us-east-2.amazonaws.com/permits/orderSteptwo/1736180498_57.pdf"
+                        ],
+                        "item_id": 14303
+                    }
+                ],
+                "routeitem": [
+                    {
+                        "id": 9030,
+                        "item_id": 14303,
+                        "route_url": "https://maps.app.goo.gl/z4TFYNKFJ4CBnM5W9",
+                        "status": "Approved"
+                    }
+                ]
+            },
+            {
+                "id": 14304,
+                "order_id": 2904,
+                "product_name": "Arizona",
+                "quantity": 1,
+                "price": "40.05",
+                "start_date": "2025-01-04",
+                "use_tolls": 1,
+                "created_at": "2025-01-04T12:21:01.000000Z",
+                "updated_at": "2025-01-07T15:36:13.000000Z",
+                "status": "Delete",
+                "token": "oduCCo1ZvfZpae",
+                "state_fee": null,
+                "other_fee": null,
+                "service_fee": "25.05",
+                "attached_at": null,
+                "state_id": 3,
+                "metas": [],
+                "routeitem": []
+            },
+            {
+                "id": 14305,
+                "order_id": 2904,
+                "product_name": "New Mexico",
+                "quantity": 1,
+                "price": "59.34",
+                "start_date": "2025-01-04",
+                "use_tolls": 1,
+                "created_at": "2025-01-04T12:21:01.000000Z",
+                "updated_at": "2025-01-07T15:36:22.000000Z",
+                "status": "Delete",
+                "token": "eHuqG9AVIgnI1b",
+                "state_fee": null,
+                "other_fee": null,
+                "service_fee": "25.05",
+                "attached_at": null,
+                "state_id": 31,
+                "metas": [],
+                "routeitem": []
+            },
+            {
+                "id": 14306,
+                "order_id": 2904,
+                "product_name": "Texas",
+                "quantity": 1,
+                "price": "86.66",
+                "start_date": "2025-01-04",
+                "use_tolls": 1,
+                "created_at": "2025-01-04T12:21:01.000000Z",
+                "updated_at": "2025-01-07T15:36:33.000000Z",
+                "status": "Delete",
+                "token": "JJxLGrwN46EUt5",
+                "state_fee": null,
+                "other_fee": null,
+                "service_fee": "25.05",
+                "attached_at": null,
+                "state_id": 43,
+                "metas": [],
+                "routeitem": []
+            }
+        ],
+        "clientData": {
+            "id": 95,
+            "token": "48067405",
+            "name": "Vitalie",
+            "last_name": "Chiorescu",
+            "phone": "+1 702-666-1566",
+            "otp": null,
+            "email": "Cvtservicesllc@gmail.com",
+            "photo": null,
+            "birthday": null,
+            "cdl": null,
+            "email_verified_at": null,
+            "is_assistant": 0,
+            "status": 1,
+            "hire_date": null,
+            "pay_rate": null,
+            "created_at": "2023-11-17T23:16:27.000000Z",
+            "updated_at": "2024-08-15T22:38:01.000000Z",
+            "tier": "Regular",
+            "billing_email": "Cvtservicesllc@gmail.com",
+            "billing_company_name": "CVT SERVICES LLC",
+            "billing_tax_id": null,
+            "billing_address": "365 Cliff Run Lane, Las Vegas, NV, USA",
+            "billing_city": "Las Vegas",
+            "billing_state": "Nevada",
+            "billing_zip": "89138",
+            "default_carrier_id": null,
+            "credits": "42.00"
+        },
+        "driverData": {
+            "id": 325,
+            "token": "87500907",
+            "name": "Anton",
+            "last_name": "Lotarev",
+            "phone": "+1 213-235-5169",
+            "otp": null,
+            "email": "Antonlotarvip1998@gmail.com",
+            "photo": null,
+            "birthday": null,
+            "cdl": null,
+            "email_verified_at": null,
+            "is_assistant": 0,
+            "status": 1,
+            "hire_date": null,
+            "pay_rate": null,
+            "created_at": "2024-05-28T21:39:43.000000Z",
+            "updated_at": "2024-09-16T08:20:23.000000Z",
+            "tier": "Regular",
+            "billing_email": null,
+            "billing_company_name": null,
+            "billing_tax_id": null,
+            "billing_address": null,
+            "billing_city": null,
+            "billing_state": null,
+            "billing_zip": null,
+            "default_carrier_id": null,
+            "credits": null
+        },
+        "commodityDataValue": {
+            "order_id": "2904",
+            "pickup_date": "01-04-2025",
+            "length": {
+                "feet": "34",
+                "inch": "0"
+            },
+            "width": {
+                "feet": "10",
+                "inch": "0"
+            },
+            "height": {
+                "feet": "12",
+                "inch": "6"
+            },
+            "weight": "6500",
+            "piece_count": "1",
+            "make": "NA",
+            "model": "NA",
+            "serial": "NA",
+            "bol": "NA",
+            "description": "Cargo trailer"
+        },
+        "trailer": 326,
+        "tollPassDeviceAttributes": "1633173901107",
+        "EmptyWeightAttributes": "19000",
+        "order_created_date": "2025-01-04 06:20:40",
+        "state_data": "2215 CA-TX",
+        "percentage": 100,
+        "permitcount": 1,
+        "statuscount": 1,
+        "$totalPaidAmount": 37.2000000000000028421709430404007434844970703125,
+        "total_due": "0.00",
+        "directpay_due": "0.00",
+        "getRoutesData": [],
+        "transactions": {
+            "1": {
+                "transaction_id": "pi_3Qf6urH1elnSuW0o0SiRkRSZ",
+                "payment_method": {
+                    "name": "N/A",
+                    "card_image": "https://permits.synchrontms.com/img/icons/payments/visa.png",
+                    "masked_card_number": "••••••1466"
+                },
+                "amount": "37.20",
+                "status": "succeeded",
+                "description": "Payment has been successfully processed",
+                "created_at": "2025-01-08 15:35:54"
+            },
+            "0": {
+                "transaction_id": "N/A",
+                "payment_method": {
+                    "name": "Discount",
+                    "card_image": "",
+                    "masked_card_number": "N/A"
+                },
+                "amount": "5.00",
+                "status": "succeeded",
+                "description": "Payment done through discount",
+                "created_at": "2025-01-08 14:51:39"
+            }
+        },
+        "odOrderLogData": [
+            {
+                "name": "Jose",
+                "last_name": "Alonzo",
+                "id": 52543,
+                "order_id": 2904,
+                "user_id": 83,
+                "item_id": 14303,
+                "activity": "Order Completed",
+                "description": "Order Completed by ",
+                "created_at": "2025-01-08T21:35:54.000000Z",
+                "updated_at": "2025-01-08T21:35:54.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1719599209_59."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 52160,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14306,
+                "activity": "Delete State Texas",
+                "description": "Load Cancelled.",
+                "created_at": "2025-01-07T15:36:33.000000Z",
+                "updated_at": "2025-01-07T15:36:33.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 52159,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14305,
+                "activity": "Delete State New Mexico",
+                "description": "Load Cancelled.",
+                "created_at": "2025-01-07T15:36:22.000000Z",
+                "updated_at": "2025-01-07T15:36:22.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 52158,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14304,
+                "activity": "Delete State Arizona",
+                "description": "Load Cancelled.",
+                "created_at": "2025-01-07T15:36:13.000000Z",
+                "updated_at": "2025-01-07T15:36:13.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 51979,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14303,
+                "activity": "Client Info Edited",
+                "description": "edited by",
+                "created_at": "2025-01-06T17:12:16.000000Z",
+                "updated_at": "2025-01-06T17:12:16.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "Radu",
+                "last_name": "Doni",
+                "id": 51974,
+                "order_id": 2904,
+                "user_id": 47,
+                "item_id": 14303,
+                "activity": "California",
+                "description": "Route approved by",
+                "created_at": "2025-01-06T16:51:03.000000Z",
+                "updated_at": "2025-01-06T16:51:03.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1723820678_36."
+            },
+            {
+                "name": "Bautista",
+                "last_name": "Siciliano",
+                "id": 51973,
+                "order_id": 2904,
+                "user_id": 335,
+                "item_id": 14303,
+                "activity": "California",
+                "description": "Route added by",
+                "created_at": "2025-01-06T16:39:44.000000Z",
+                "updated_at": "2025-01-06T16:39:44.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1719607296_71."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 51972,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14303,
+                "activity": "California",
+                "description": "Permit sent to driver",
+                "created_at": "2025-01-06T16:21:51.000000Z",
+                "updated_at": "2025-01-06T16:21:51.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 51971,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14303,
+                "activity": "California",
+                "description": "Permit e25-000896 attached by",
+                "created_at": "2025-01-06T16:21:39.000000Z",
+                "updated_at": "2025-01-06T16:21:39.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 51970,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14303,
+                "activity": "California",
+                "description": "Application placed by ",
+                "created_at": "2025-01-06T16:21:29.000000Z",
+                "updated_at": "2025-01-06T16:21:29.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 51969,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14303,
+                "activity": " Order Confirmation Sent",
+                "description": "To Ryan V, Anton Lotarev, by ",
+                "created_at": "2025-01-06T16:21:00.000000Z",
+                "updated_at": "2025-01-06T16:21:00.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 51929,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14303,
+                "activity": "Commodity Info Edited",
+                "description": "Commodity Info edited by",
+                "created_at": "2025-01-04T12:21:25.000000Z",
+                "updated_at": "2025-01-04T12:21:25.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            },
+            {
+                "name": "youcef",
+                "last_name": "ab",
+                "id": 51928,
+                "order_id": 2904,
+                "user_id": 32,
+                "item_id": 14303,
+                "activity": "Extra States Added",
+                "description": "AZ,NM,TX,were added by",
+                "created_at": "2025-01-04T12:21:01.000000Z",
+                "updated_at": "2025-01-04T12:21:01.000000Z",
+                "user_photo": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/userImage/1720011207_85."
+            }
+        ],
+        "estimatorTotalPriceValue": 41.0499999999999971578290569595992565155029296875
+    }
+
+    

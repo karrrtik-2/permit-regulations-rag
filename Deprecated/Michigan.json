@@ -1,0 +1,113 @@
+{
+    "id": 22,
+    "state_name": "Michigan",
+    "state_website": "https://milogintp.michigan.gov/eai/tplogin/authenticate",
+    "state_email": "MDOT-MIPARSSEND@michigan.gov",
+    "state_phone": "517 241 8999",
+    "info": {
+        "state_short_name": "MI",
+        "legal_dimensions": "Length:53′ semi-trailer on Interstate and designated highways53′ trailer must have kingpin setting of 41′50′ maximum on non-designated highwaysWidth:8′-6″ designated highways8′ all other roadsHeight: 13′-6″Weight: 80,000 GrossSteer Axle – 700 pounds per inch of tire width (15,400 pounds with 11″ tires)Tandem – 34,000 (32,000 on non-designated roads, and 26,000 on second tandem)Tridem – 42,000 (39,000 on non-designated) Single – 20,000 designated highways (18,000 other roads)",
+        "speed_limit": "Permitted loads must always maintain the minimum posted speed. If the posted speed limit is over 55mph, travel 10mph slower. If it's 55mph or less, follow the posted speed limit. Self-propelled vehicles must stick to the minimum speed limit on non-freeway routes, and must go at least 45 MPH on freeways.",
+        "operating_time": "Travel is permitted from half an hour before sunrise to half an hour after sunset. Overweight-only loads can travel any time, any day.. Weekend travel is now being permitted on a trial basis for loads not exceeding 10′ wide, 14′ high, and 90′ long. Saturday and Sunday daylight to 3:00 pm. If overweight only with all dimensions legal and not exceeding 70′ overall length can have continuous travel.",
+        "restricted_travel": "Loads over 12′ wide or 90′ long are not to move from 7:00 am – 9:00 am and from 3:00 pm – 6:00 pm in the following counties: Genesee, Ingham, Jackson, Kalamazoo, Kent, Muskegon, Macomb, Oakland, Saginaw, Westenau, Wayne. No travel on major holidays and holiday weekends. Note on Bridge Crossings: Contact Mackinaw Bridge Authority (phone 906-643-7600) 24 hours prior to planned bridge arrival/crossing. Escort will be provided (no charge) for loads exceeding legal weight or 10′ wide. Crossing is not allowed when winds exceed 25 miles per hour. Ambassador Bridge (between Detroit and Windsor, Ontario) is now charging $50.00 or more for O/D shipments and may require a one-day notice. They have restricted crossing hours from 10:00 am to 4:00 pm, Monday through Friday. Ambassador Bridge phone is 313-496-1111.",
+        "escorts": "Length:Over 90′ – one escortOver 100′ – two escortsOverhang: Over 15′ – one escort.Width: (on all highways)Over 12′ – one escortOver 14′ – two escortsHeight:Over 14′-5″ – one escort with high poleOver 15′ – two escorts and a route survey must be submitted and approved.LIFT AXLES: According to Michigan provision sheet, “Vehicles must have air or lift axles on ground.” According to the permit office, when under a load, all axles including flip axles must be on the ground if you are overweight.SEASONAL LOAD RESTRICTIONS: Usually February to April, maximum weights per axle and specific routing may vary. No overweight permits will be issued during the spring weight restriction period. Maximum axle weights may be reduced up to 35%. A tandem group may be allowed only 26,000 pounds (13,000 pounds per axle), or with two tandem groups they may allow 26,000 pounds for one group and 32,000 for the other tandem group. Frost Phone: 800-787-8960",
+        "signs_flags_lights": "“Oversize Load” signs required on front of vehicle and on rear of load for any overdimensional load. An overwidth or overlength vehicle/load requires flags at each corner of the load, with an additional flag at the widest point on each side of the load if it extends beyond the corner flags. When rear overhang is 4′ or more, the extreme rear of the load must have a flag for daytime running, and a red light or lantern at night.",
+        "miscellaneous": "SEASONAL LOAD RESTRICTIONS: Usually February to April, maximum weights per axle and specific routing may vary. No overweight permits will be issued during the spring weight restriction period. Maximum axle weights may be reduced up to 35%. A tandem group may be allowed only 26,000 pounds (13,000 pounds per axle), or with two tandem groups they may allow 26,000 pounds for one group and 32,000 for the other tandem group. Frost Phone: 800-787-8960Overweight loads with pushers, all axles must touch the ground.",
+        "state_info": "PERMITS: Michigan oversize permits are valid for five travel days. Must have permit prior to entering the state.",
+        "provision": "https://synchrontms.s3.us-east-2.amazonaws.com/provisions/1710430522-22.pdf",
+        "service_fee": 25.05,
+        "od_permit_price": 50,
+        "ow_permit_price": 52,
+        "night_traver": "Overweight-only loads can travel any time, any day.Permit validity period: 5 days",
+        "permit_limits": "Length: 150′Width: 16′ (or 14′ during spring thaw restrictions)Height: 15′ Shipper/driver are responsible for finding safe routes when the height exceeds 13’6″Weight: “Handled on a case-by-case basis.” Air or lift axles should be on the ground. You must be registered for at least the amount of weight you are permitting for Michigan.Loads exceeding these dimensions must be applied for as superloads, and may take up to ten days to issue once shipper letter, route surveys, etc. are received.ALL AXLES MUST TOUCH GROUND? YES",
+        "superloads": "Definition:In Michigan, a superload is defined as any vehicle or combination exceeding any of the following:Width: Over 16 feet (permits available for up to 18 feet)Height: Over 15 feet (permits available for exceeding this height with case-by-case approval)Length: Over 150 feet (permits available for up to 200 feet)Weight: Over 150,000 pounds (permits available for exceeding this weight with case-by-case approval)Permits:All superloads require a Superload Permit from the Michigan Department of Transportation (MDOT). As well as a shipper's letter and a route survey (route survey can be found on Michigan website and must be emailed to them) You can apply for the permit online through the Michigan Permits and Routing System (MiTRIP) or by contacting the MDOT-Superload-Review email address or fax number.The application requires detailed information about your load, route, and travel schedule, including axle weights and spacing for overweight loads.Allow 10 business days for processing.Escorts:Superloads typically require escorts, with the number and type depending on the specific size and complexity of the load.Loads exceeding 12 feet wide generally require a minimum of one escort.Additional escorts, such as law enforcement officers, may be required for larger or heavier loads, or specific routes.The permit application will specify the required escorts.Travel Restrictions:Superloads can only travel during designated hours:Monday-Friday: Sunrise to sunsetNo travel on weekends or major holidays.Additional restrictions:Specific routes may have additional restrictions based on dimensions and weight.Consult MDOT for details and any exemptions that might apply.",
+        "others": {
+            "pricing": {
+                "permit_valid_days": "5",
+                "turnaround_time": "3",
+                "note_os": null,
+                "turnaround_time1": "3",
+                "note_ow": null,
+                "manualReviewTrigger": 1,
+                "manualReviewTrigger2": 1,
+                "enhancedRegistrationRequired": 0
+            },
+            "interstate_escort": {
+                "escort_req_length_ft": "90",
+                "escort_req_length_inch": null,
+                "escort_req_width_ft": "12",
+                "escort_req_width_inch": null,
+                "escort_req_height_ft": "14",
+                "escort_req_height_inch": "5",
+                "escort_req_weight": null,
+                "escort_req_overhang_ft": "15",
+                "escort_req_overhang__inch": null
+            },
+            "route_survey": {
+                "route_survey_length_ft": null,
+                "route_survey_length_inch": null,
+                "route_survey_width_ft": null,
+                "route_survey_width_inch": null,
+                "route_survey_height_ft": "15",
+                "route_survey_height_inch": null,
+                "route_survey_weight": null
+            },
+            "police_escort_req": {
+                "police_escort_length_ft": null,
+                "police_escort_length_inch": null,
+                "police_escort_width_ft": null,
+                "police_escort_width_inch": null,
+                "police_escort_height_ft": null,
+                "police_escort_height_inch": null,
+                "police_escort_weight": null
+            },
+            "max_weight_per_axle": {
+                "max_weight_per_axle_single": null,
+                "max_weight_per_axle_tandem": null,
+                "max_weight_per_axle_tridem": null,
+                "max_weight_per_axle_quad": null,
+                "max_weight_per_axle_five": null,
+                "max_weight_per_axle_six": null,
+                "max_weight_per_axle_seven": null,
+                "max_weight_per_axle_eight": null
+            },
+            "legal_limits": {
+                "legal_limits_length_ft": null,
+                "legal_limits_length_inch": null,
+                "legal_limits_width_ft": "8",
+                "legal_limits_width_inch": "6",
+                "legal_limits_height_ft": "13",
+                "legal_limits_height_inch": "6",
+                "legal_limits_weight": "80000",
+                "legal_limits_overhang_ft": null,
+                "legal_limits_overhang_inch": null
+            },
+            "lane_escort_req": {
+                "lane_escort_req_length_ft": "90",
+                "lane_escort_req_length_inch": null,
+                "lane_escort_req_width_ft": "12",
+                "lane_escort_req_width_inch": null,
+                "lane_escort_req_height_ft": "14",
+                "lane_escort_req_height_inch": "5",
+                "lane_escort_req_weight": null,
+                "lane_escort_req_overhang_ft": "15",
+                "lane_escort_req_overhang__inch": null
+            },
+            "superload_trigger": {
+                "supperload_trigger_length_ft": null,
+                "supperload_trigger_length_inch": null,
+                "supperload_trigger_width_ft": "16",
+                "supperload_trigger_width_inch": null,
+                "supperload_trigger_height_ft": "15",
+                "supperload_trigger_height_inch": null,
+                "supperload_trigger_weight": "150000"
+            },
+            "file_autofillerjs": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/AutofillerJSFile/1720013904_96.js",
+            "username": "Turcann1234",
+            "password": "1555Shallow#",
+            "created_at": null,
+            "updated_at": "2024-12-05T18:07:44.000000Z",
+            "total_permit": 94
+        }
+    }
+}

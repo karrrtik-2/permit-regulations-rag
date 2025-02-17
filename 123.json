@@ -1,0 +1,373 @@
+[
+    {
+        "id": 22,
+        "token": "93728473",
+        "user_id": 32,
+        "carrier_id": 26,
+        "client_id": 96,
+        "driver_id": 95,
+        "order_status": "Completed",
+        "order_created_date": "2023-11-23 06:12:47",
+        "order": {
+            "subtotal": 0,
+            "tax": 0,
+            "total": 0,
+            "created_at": "2023-11-18T01:46:03.000000Z",
+            "updated_at": "2024-08-21T11:14:29.000000Z",
+            "truck_detail": {
+                "id": 140,
+                "unit_id": "2214",
+                "carrier": 26,
+                "year": "2023",
+                "make": "KENWORTH",
+                "model": "t680",
+                "vin": "1XKYDP9X6PJ218226",
+                "ifta_sticker": null,
+                "license_plate": "RP03684",
+                "license_state": "WA",
+                "axees": null,
+                "color": "red",
+                "axle": 3,
+                "carrier_dot": "2969030",
+                "carrier_name": "STRATAN INC",
+                "carrier_address": null,
+                "carrier_phone": null,
+                "odameter": null,
+                "owner_name": null,
+                "truck_meta_data": {
+                    "token": "vMy9cRtoIO5q0776",
+                    "owner_id": 95,
+                    "owner_pay": null,
+                    "registration": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/trucks/1733176143_43.pdf",
+                    "lease_agreement": null,
+                    "insurance": null,
+                    "annual_inspection": null,
+                    "registration_exp": "2025-11-30",
+                    "insurance_exp": null,
+                    "annual_inspection_exp": null,
+                    "status": 1,
+                    "is_brk_updates_enabled": 1,
+                    "ny_permit": null,
+                    "ny_permit_exp": null,
+                    "nm_permit": "",
+                    "nm_permit_exp": null,
+                    "carb_certificate": null,
+                    "oregon_permit": null,
+                    "eld_device": null,
+                    "tst_sn": null,
+                    "loss_payee_name": null,
+                    "loss_payee_address": null,
+                    "unit_value": null,
+                    "created_at": "2023-11-18T01:44:51.000000Z",
+                    "updated_at": "2024-12-02T21:49:04.000000Z"
+                }
+            },
+            "Trailer_Info": {
+                "id": 76,
+                "trailer_id": "232",
+                "carrier": 26,
+                "model": "NA",
+                "year": "2013",
+                "vin": "1TKJ04825DW119479",
+                "license_plate": "5285057",
+                "state": "ME",
+                "lenght": "48",
+                "trailer_type": "65",
+                "make": "TRAIL KING INDUSTRIES",
+                "axees": null,
+                "axle": 2,
+                "king_pin": "43",
+                "kin_pin_in": 0,
+                "standard_Ft": "1",
+                "Inch": "8",
+                "owner_name": null,
+                "axle_type": "Fixed",
+                "drop_axle": 0,
+                "empty_weight": 19000,
+                "trailer_meta_data": {
+                    "token": "mOPOWhcwsR6Eq4cQ",
+                    "owner_id": null,
+                    "registration": "https://synchrontms.s3.us-east-2.amazonaws.com/permits/trailers/1717793591_67.pdf",
+                    "lease_agreement": null,
+                    "insurance": null,
+                    "annual_inspection": null,
+                    "name_on_registration": null,
+                    "status": 1,
+                    "unit_value": "0",
+                    "loss_payee_name": null,
+                    "loss_payee_address": null,
+                    "registration_exp": "2030-02-12",
+                    "insurance_exp": null,
+                    "annual_inspection_exp": null,
+                    "created_at": "2023-11-18T01:45:37.000000Z",
+                    "updated_at": "2024-08-14T15:53:44.000000Z"
+                }
+            },
+            "Trailer_Type": "Removable Gooseneck",
+            "Company_Info": {
+                "id": 26,
+                "mc": "9032",
+                "dot": "2969030",
+                "name": "STRATAN INC",
+                "ifta_number": "NV46566018701",
+                "Company_meta_data": {
+                    "token": "RL0KtJR8mNXR3YrK",
+                    "tax_id": "46-5660187",
+                    "billing_company_name": "STRATAN INC",
+                    "billing_email": "accounting@strataninc.com",
+                    "billing_address": "2695 Kee-Moore Drive",
+                    "billing_city": "Chester",
+                    "billing_state": "South Carolina",
+                    "billing_zip_code": "29706",
+                    "created_at": "2023-11-17T23:13:27.000000Z",
+                    "updated_at": "2024-09-19T19:46:04.000000Z",
+                    "carrier_credits": null
+                }
+            },
+            "Company_city": "CHESTER",
+            "Company_state": "SC",
+            "Company_zip_code": "29706",
+            "Company_physical_address": "2695 KEE MOORE DR",
+            "Company_phone_number": "(757) 503-9894",
+            "Company_email": "strataninc@gmail.com",
+            "Company_expire_date": "02-01-2025",
+            "Company_carrierImage": "[]",
+            "axle_weight": [
+                {
+                    "name": "Axle 1:2 Tires",
+                    "value": "12000"
+                },
+                {
+                    "name": "Axle 2:4 Tires",
+                    "value": "20000"
+                },
+                {
+                    "name": "Axle 3:4 Tires",
+                    "value": "20000"
+                },
+                {
+                    "name": "Axle 4:4 Tires",
+                    "value": "20000"
+                },
+                {
+                    "name": "Axle 5:4 Tires",
+                    "value": "20000"
+                }
+            ],
+            "axle_spacing": [
+                {
+                    "name": "A1- A2",
+                    "value": "17ft8in"
+                },
+                {
+                    "name": "A2- A3",
+                    "value": "4ft5in"
+                },
+                {
+                    "name": "A3- A4",
+                    "value": "38ft7in"
+                },
+                {
+                    "name": "A4- A5",
+                    "value": "4ft3in"
+                }
+            ],
+            "OverallOrderData": {
+                "orderId": "22",
+                "truckID": "140",
+                "trailerId": "76",
+                "overalllength": {
+                    "feet": "70",
+                    "inch": "0"
+                },
+                "overallwidth": {
+                    "feet": "11",
+                    "inch": "11"
+                },
+                "overallheight": {
+                    "feet": "13",
+                    "inch": "6"
+                },
+                "overallweight": "80000",
+                "front_overhang": {
+                    "feet": "0",
+                    "inch": "0"
+                },
+                "rear_overhang": {
+                    "feet": "0",
+                    "inch": "0"
+                }
+            },
+            "totalWeight": 92000,
+            "pickupFormattedAddress": " 8642 Avenida Costa Norte, San Diego, CA 92154",
+            "deliveryFormatedAddress": "77860 Bombing Range Rd, Boardman, OR 97818",
+            "routeData": [
+                {
+                    "id": 889,
+                    "state_name": "California",
+                    "permit_status": "Permit Attached",
+                    "permit_link": null,
+                    "route_image": null,
+                    "price": "23.00",
+                    "use_tolls": 1,
+                    "state_fee": 43,
+                    "other_fee": null,
+                    "service_fee": "25.05",
+                    "route_url_1": "https://www.google.com/maps/dir/8642+Avenida+Costa+Norte,+San+Diego,+CA,+USA/32.5753125,-117.0387625/32.7432907,-117.1107881/34.1625682,-117.4640415/34.7615922,-117.1559902/34.8563486,-114.9039472/35.1758753,-114.8493348/@33.3650572,-117.0745227,8z/data=!4m14!4m13!1m5!1m1!1s0x80d94649120bfa03:0x8ed0627ebac7b08d!2m2!1d-116.9580169!2d32.5594028!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu",
+                    "route_url_status_1": "Approved"
+                },
+                {
+                    "id": 890,
+                    "state_name": "Nevada",
+                    "permit_status": "Permit Attached",
+                    "permit_link": null,
+                    "route_image": null,
+                    "price": "25.00",
+                    "use_tolls": 1,
+                    "state_fee": 25,
+                    "other_fee": null,
+                    "service_fee": "25.05",
+                    "route_url_1": "https://www.google.com/maps/dir/35.175857,-114.8493129/35.9754706,-114.9147194/36.285221,-115.0187224/36.3860249,-114.8984831/37.5438887,-115.2340997/39.000929,-115.1222631/39.2766055,-114.8486538/41.9968578,-114.6693535/@38.5149459,-119.0923806,7z/data=!4m15!4m14!1m5!3m4!1m2!1d-114.9084152!2d35.9390321!3s0x80cf2aa7397ea059:0xcc073d7fe3dd2e1!1m0!1m0!1m0!1m0!1m0!1m0!1m0!3e0?entry=ttu",
+                    "route_url_status_1": "Approved"
+                },
+                {
+                    "id": 891,
+                    "state_name": "Idaho",
+                    "permit_status": "Permit Attached",
+                    "permit_link": null,
+                    "route_image": null,
+                    "price": "44.98",
+                    "use_tolls": 1,
+                    "state_fee": 30,
+                    "other_fee": 2,
+                    "service_fee": "25.05"
+                },
+                {
+                    "id": 892,
+                    "state_name": "Oregon",
+                    "permit_status": "Permit Attached",
+                    "permit_link": null,
+                    "route_image": null,
+                    "price": "25.00",
+                    "use_tolls": 1,
+                    "state_fee": 41,
+                    "other_fee": null,
+                    "service_fee": "25.05",
+                    "route_url_1": "https://www.google.com/maps/dir/44.0069021,-116.9410458/44.7720302,-117.8093646/45.3464093,-118.1500188/45.8026522,-119.4355035/77860+Bombing+Range+Rd,+Lexington,+OR+97839,+USA/@45.4468846,-119.4173922,8.21z/data=!4m12!4m11!1m0!1m0!1m0!1m0!1m5!1m1!1s0x54bd4ba7febd6835:0x267dc5eba80af6f6!2m2!1d-119.6230108!2d45.748684!3e0?entry=ttu",
+                    "route_url_status_1": "Approved",
+                    "route_url_2": "https://www.google.com/maps/dir/44.0069021,-116.9410458/44.7720302,-117.8093646/45.3464093,-118.1500188/45.8026522,-119.4355035/77860+Bombing+Range+Rd,+Lexington,+OR+97839,+USA/@45.4468846,-119.4173922,8.21z/data=!4m12!4m11!1m0!1m0!1m0!1m0!1m5!1m1!1s0x54bd4ba7febd6835:0x267dc5eba80af6f6!2m2!1d-119.6230108!2d45.748684!3e0?entry=ttu",
+                    "route_url_status_2": "Approved"
+                }
+            ],
+            "clientData": {
+                "id": 96,
+                "name": "Ryan",
+                "last_name": "V",
+                "phone": "+1 725-219-0295",
+                "email": "ryan@strataninc.com",
+                "pin": null,
+                "client_meta_Data": {
+                    "token": "38617257",
+                    "otp": null,
+                    "photo": null,
+                    "birthday": null,
+                    "cdl": null,
+                    "email_verified_at": null,
+                    "is_assistant": 0,
+                    "status": 1,
+                    "hire_date": null,
+                    "pay_rate": null,
+                    "created_at": "2023-11-17T23:17:35.000000Z",
+                    "updated_at": "2024-09-16T08:20:23.000000Z",
+                    "tier": "Regular",
+                    "billing_email": "Accounting@strataninc.com",
+                    "billing_company_name": "STRATAN INC",
+                    "billing_tax_id": null,
+                    "billing_address": "2695 Kee-Moore Drive, Chester, SC, USA",
+                    "billing_city": "Chester",
+                    "billing_state": "South Carolina",
+                    "billing_zip": "29706",
+                    "default_carrier_id": null,
+                    "credits": null
+                }
+            },
+            "driverData": {
+                "id": 95,
+                "token": "48067405",
+                "name": "Vitalie",
+                "last_name": "Chiorescu",
+                "phone": "+1 702-666-1566",
+                "otp": null,
+                "email": "Cvtservicesllc@gmail.com",
+                "photo": null,
+                "birthday": null,
+                "cdl": null,
+                "email_verified_at": null,
+                "pin": null,
+                "billing_email": "Cvtservicesllc@gmail.com",
+                "billing_company_name": "CVT SERVICES LLC",
+                "billing_tax_id": null,
+                "billing_address": "365 Cliff Run Lane, Las Vegas, NV, USA",
+                "billing_city": "Las Vegas",
+                "billing_state": "Nevada",
+                "billing_zip": "89138",
+                "default_carrier_id": null,
+                "credits": "42.00",
+                "driver_meta_Data": {
+                    "is_assistant": 0,
+                    "status": 1,
+                    "hire_date": null,
+                    "pay_rate": null,
+                    "created_at": "2023-11-17T23:16:27.000000Z",
+                    "updated_at": "2024-08-15T22:38:01.000000Z",
+                    "tier": "Regular"
+                }
+            },
+            "commodityDataValue": {
+                "order_id": "22",
+                "pickup_date": "2023-11-17",
+                "length": {
+                    "feet": "29",
+                    "inch": "0"
+                },
+                "width": {
+                    "feet": "11",
+                    "inch": "11"
+                },
+                "height": {
+                    "feet": "10",
+                    "inch": "0"
+                },
+                "weight": "18000",
+                "piece_count": "1",
+                "description": "Wooden crate"
+            },
+            "trailer": 76,
+            "tollPassDeviceAttributes": "B6010010829",
+            "EmptyWeightAttributes": "19000",
+            "state_data": "2214 CA-OR",
+            "percentage": 100,
+            "permitcount": 4,
+            "statuscount": 4,
+            "totalPaidAmount": 141,
+            "total_due": "0.00",
+            "directpay_due": "0.00",
+            "transactions": {
+                "1": {
+                    "amount": "100.20",
+                    "status": "succeeded",
+                    "description": "Payment done through discount",
+                    "created_at": "2024-03-07 23:04:27"
+                },
+                "0": {
+                    "amount": "141.00",
+                    "status": "succeeded",
+                    "description": "Payment done through direct pay",
+                    "created_at": "2023-11-24 20:25:00"
+                }
+            },
+            "estimatedTotalCostValue": 189.2,
+            "onlyForRouteIdeas": []
+        }
+    }
+]
