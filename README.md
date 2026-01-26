@@ -21,24 +21,6 @@ User Query → Embedding Model → Vector Search → Context Retrieval → LLM R
 - **Structured Data Extraction**: Parses HTML regulations into clean JSON format
 - **MongoDB Integration**: Stores and indexes permit data with vector search capabilities
 
-## Project Structure
-
-permit-regulations-rag/
-├── src/ # Source code
-│ ├── scraper.py # State permit data scraper
-│ ├── rag_pipeline.py # RAG query pipeline
-│ ├── embeddings_minilm.py # Open-source embedding model
-│ └── embeddings_openai.py # OpenAI embedding model
-├── data/
-│ ├── raw/ # Scraped JSON/TXT files
-│ └── processed/ # Cleaned and indexed data
-├── docs/ # Additional documentation
-├── Deprecated/ # Legacy code (not in use)
-├── requirements.txt
-├── .env.example
-└── README.md
-
-
 ## Setup
 
 ### Prerequisites
