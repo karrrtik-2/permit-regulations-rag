@@ -64,7 +64,7 @@ assistant/        # Application layer
 ```bash
 # Clone the repository
 git clone https://github.com/karrrtik-2/heavyhaul-ai-logistics.git
-cd HeavyHaul_AI
+cd heavyhaul-ai-logistics
 
 # Create virtual environment
 python -m venv .venv
@@ -234,5 +234,6 @@ pytest --cov --cov-report=html
 | **Config** | python-dotenv, dataclasses |
 
 MIT
+
 
 
