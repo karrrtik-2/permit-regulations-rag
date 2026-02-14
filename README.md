@@ -63,7 +63,7 @@ assistant/        # Application layer
 
 ```bash
 # Clone the repository
-git clone [https://github.com/karrrtik-2/HeavyHaul_AI.git](https://github.com/karrrtik-2/heavyhaul-ai-logistics.git)
+git clone https://github.com/karrrtik-2/heavyhaul-ai-logistics.git
 cd HeavyHaul_AI
 
 # Create virtual environment
@@ -234,4 +234,5 @@ pytest --cov --cov-report=html
 | **Config** | python-dotenv, dataclasses |
 
 MIT
+
 
