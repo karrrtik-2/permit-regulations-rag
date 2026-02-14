@@ -23,7 +23,7 @@
 ### 1. Clone and Set Up Environment
 
 ```bash
-git clone https://github.com/karrrtik-2/HeavyHaul_AI.git
+git clone https://github.com/karrrtik-2/heavyhaul-ai-logistics.git
 cd HeavyHaul_AI
 
 python -m venv .venv
@@ -116,3 +116,4 @@ Set the `TESSERACT_CMD` environment variable to your Tesseract installation path
 ```dotenv
 TESSERACT_CMD=C:\Program Files\Tesseract-OCR\tesseract.exe
 ```
+
