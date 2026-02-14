@@ -63,7 +63,7 @@ assistant/        # Application layer
 
 ```bash
 # Clone the repository
-git clone https://github.com/karrrtik-2/HeavyHaul_AI.git
+git clone [https://github.com/karrrtik-2/HeavyHaul_AI.git](https://github.com/karrrtik-2/heavyhaul-ai-logistics.git)
 cd HeavyHaul_AI
 
 # Create virtual environment
@@ -233,14 +233,5 @@ pytest --cov --cov-report=html
 | **ETL** | pdfplumber, EasyOCR, PyPDF2, Google Gemini |
 | **Config** | python-dotenv, dataclasses |
 
----
-
-## Project Status
-
-This project was restructured from a working prototype into a clean, modular architecture suitable for production use and open-source contribution. Core functionality is preserved — only structure and code quality were improved.
-
----
-
-## License
-
 MIT
+
